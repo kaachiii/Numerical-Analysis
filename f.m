@@ -1,2 +1,2 @@
 function y = f(x)
-  y = exp(-2*x)-sin(x);
+  y = 1/(x^2+1);

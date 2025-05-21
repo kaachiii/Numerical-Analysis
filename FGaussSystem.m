@@ -1,4 +1,4 @@
-function F = FGaussSystem(x)
+function F = FGaussSystem(x) # gauss 2
   n = length(x);
   F = zeros(n,1); # int agar F ke bawah
   F(1) = x(1)+x(2)-2;
